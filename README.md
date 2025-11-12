@@ -1,21 +1,39 @@
-﻿💻 Mô tả Dự án
+﻿🍓 TTasty - Fruit Shop Web Application
+💻 Mô tả Dự án
 
-Dự án TTasty - Fruit Shop được phát triển bằng Java Web (Servlet, JSP) nhằm xây dựng hệ thống quản lý cửa hàng trái cây trực tuyến với các chức năng CRUD (Create - Read - Update - Delete) đầy đủ.
+TTasty - Fruit Shop là ứng dụng web bán hàng trực tuyến được phát triển bằng Java Servlet, JSP và JPA/JDBC, mô phỏng quy trình kinh doanh thực tế của một cửa hàng trái cây.
+Dự án hỗ trợ đầy đủ các chức năng CRUD (Create, Read, Update, Delete) cho sản phẩm, người dùng và đơn hàng, kết hợp với quản lý giỏ hàng, xác nhận mua bán, và xử lý giao dịch trực tuyến cơ bản.
 
-🔧 Công nghệ sử dụng
+⚙️ Công nghệ Sử dụng
 
-Java Servlet & JSP – Xử lý logic và hiển thị giao diện web.
+Java Servlet & JSP – Xây dựng giao diện và xử lý logic nghiệp vụ.
 
-JDBC / JPA – Kết nối và quản lý dữ liệu trong cơ sở dữ liệu.
+JDBC / JPA – Quản lý dữ liệu và kết nối cơ sở dữ liệu hiệu quả.
 
-MVC Design Pattern – Tách biệt rõ ràng giữa Model, View và Controller, giúp mã nguồn dễ bảo trì và mở rộng.
+MVC Design Pattern – Tổ chức mã nguồn rõ ràng, dễ bảo trì và mở rộng.
 
-Session, Request, Application Scope – Quản lý dữ liệu người dùng và trạng thái ứng dụng hiệu quả.
+Session, Request, Application Scope – Quản lý thông tin người dùng, phiên làm việc và phạm vi ứng dụng.
 
-🚀 Mục tiêu phát triển
+🛒 Các Chức Năng Chính
 
-Áp dụng mô hình MVC trong xây dựng ứng dụng web.
+Quản lý sản phẩm (CRUD): thêm, sửa, xóa, xem chi tiết sản phẩm.
 
-Phát triển và triển khai các chức năng CRUD cho sản phẩm, người dùng và đơn hàng.
+Quản lý tài khoản người dùng: đăng ký, đăng nhập, chỉnh sửa thông tin cá nhân, gửi otp email
 
-Nghiên cứu và chuyển đổi từ JDBC sang JPA để tối ưu hóa việc quản lý dữ liệu, giảm thiểu lỗi thủ công trong truy vấn SQL.
+Giỏ hàng (Shopping Cart): thêm sản phẩm vào giỏ, cập nhật số lượng, xóa sản phẩm khỏi giỏ.
+
+Xác nhận mua hàng: xử lý đơn hàng, lưu thông tin giao dịch và hiển thị hóa đơn.
+
+Quản lý đơn hàng: người dùng xem lại lịch sử đặt hàng; admin xem, duyệt và cập nhật trạng thái đơn.
+
+Thông báo & xác nhận hành động: sử dụng session/request để hiển thị thông tin phản hồi từ hệ thống.
+
+🚀 Mục Tiêu Phát Triển
+
+Áp dụng mô hình MVC trong phát triển ứng dụng web Java.
+
+Hiểu và vận dụng session management trong Java Web.
+
+Chuyển đổi dần từ JDBC sang JPA để tối ưu hóa quản lý dữ liệu và giảm thiểu lỗi truy vấn SQL.
+
+Hoàn thiện chuỗi nghiệp vụ bán hàng online từ hiển thị sản phẩm → giỏ hàng → thanh toán → quản lý đơn hàng.
